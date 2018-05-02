@@ -1,0 +1,45 @@
+.qyhy {
+    font: 14px Arial, Helvetica, sans-serif;
+        line-height: normal;
+    color: #aaa;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom:10px;
+}
+.prev {
+    margin:0 20px;
+}
+ul{
+    display:inline;
+}
+li{
+    display:inline-block;
+    margin: 2px;
+}
+li span{
+    padding:0px 5px;
+}
+.active{
+    color: white;
+    background: #83BF73;
+}
+.active span{
+    color:white;
+}
+.hover{
+    color:#37a;
+}
+.pointer{
+    cursor:pointer; 
+}
+.hover:hover{
+    background-color:#37a;
+}
+.hover span:hover{
+    color:white;
+}
+.next:hover{
+    color: #fff;
+    background: #37a;   
+    cursor:pointer; 
+}

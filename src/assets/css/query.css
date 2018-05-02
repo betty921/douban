@@ -1,0 +1,71 @@
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0px;
+    padding: 0;
+    color: #494949;
+}
+.lbul li{
+    overflow: hidden;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+.lbul a:hover{
+    color: white;
+    background-color: #3388c4; 
+}
+a span:hover{
+    color: white;
+}
+.name{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.img{
+    width: 65px;
+    float: left;
+    margin-right: 8px;
+}
+    .xing{
+        background: url(../img/pinxing.png) no-repeat;
+        display: inline-block;
+        width: 55px;
+        height: 11px;
+    }
+    .xx05{
+        background-position: 0 -99px;
+    }
+    .xx10{
+        background-position: 0 -88px;
+    }
+    .xx15{
+        background-position: 0 -77px;
+    }
+    .xx20{
+        background-position: 0 -66px;
+    }
+    .xx25{
+        background-position: 0 -55px;
+    }
+    .xx30{
+        background-position: 0 -44px;
+    }
+    .xx35{
+        background-position: 0 -33px;
+    }
+    .xx40{
+        background-position: 0 -22px;
+    }
+    .xx45{
+        background-position: 0 -11px;
+    }
+    .xx50{
+        background-position: 0 0px;
+    }
+    .rating i{
+        margin-left: 4px;
+        color: #e09015;
+        margin-right: 5px;
+    }

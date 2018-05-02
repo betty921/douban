@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>lh</title>
+     <style type="text/css">  
+        html{
+    background-color: white;
+    color: black;
+}
+body{
+    font-size: 12px;
+    font-style: Helvetica,Arial,sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #37a;
+}
+a:hover{
+    text-decoration: none;
+    background-color: #37a;
+    color: white;
+}
+img{
+    border: none;
+}
+li{
+    list-style: none;
+}
+span{
+    color: #999;
+}
+.wrapper{
+    width: 1040px;
+    margin: 0 auto;
+}
+.side{
+    width: 300px;
+    float: right;
+    margin-left: 30px;
+}
+.main{
+    margin-top: 20px;
+    width: 675px;
+    padding-right: 40px;
+}
+.lv{
+  width: 655px;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+}
+.bt{
+  padding: 3px 6px;
+  background-color: #FFEADA;
+  margin-right: 8px;
+  border:none;
+  font:normal 12px sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+        /* 跳转页面动画 */  
+        .slide-enter,  
+        .slide_back-enter {  
+            position: absolute;  
+            width: 100%;  
+            
+        }  
+        .slide-leave,  
+        .slide_back-leave {  
+            position: absolute;  
+            width: 100%;  
+        }  
+        .slide-enter-active,  
+        .slide_back-enter-active {  
+            transition: all 0.3s linear;  
+        }  
+        .slide-leave-active {  
+            position: absolute;  
+            transition: all 0.3s linear;  
+            transform: translate(-100%);  
+        }  
+        .slide-enter{  
+            transform: translateX(100%);  
+        }  
+        .slide_back-leave-active {  
+            position: absolute;  
+            transition: all 0.3s linear;  
+            transform: translate(100%);  
+        }  
+        .slide_back-enter {  
+            transform: translateX(-100%);  
+        }  
+    </style>
+  </head>
+  <body>
+    <div id="app">
+    	<transition :name="transitionName">  
+            <router-view></router-view>  
+        </transition>
+    </div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript">  
+  
+        // 计算html的font-size  
+        (function(){  
+            function resizeBaseFontSize(){  
+                var rootHtml = document.documentElement,  
+                    deviceWidth = rootHtml.clientWidth;  
+  
+                if(deviceWidth > 640){  
+                    deviceWidth = 640;  
+                }  
+  
+                rootHtml.style.fontSize = deviceWidth / 7.5 + "px";  
+            }  
+  
+            resizeBaseFontSize();  
+  
+            window.addEventListener("resize", resizeBaseFontSize, false);  
+            window.addEventListener("orientationchange", resizeBaseFontSize, false);  
+        })();  
+    </script>
+  </body>
+</html>

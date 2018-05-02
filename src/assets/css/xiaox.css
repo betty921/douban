@@ -1,0 +1,36 @@
+	.xing{
+		background: url(../img/pinxing.png) no-repeat;
+		display: inline-block;
+		width: 55px;
+		height: 11px;
+	}
+	.xx05{
+		background-position: 0 -99px;
+	}
+	.xx10{
+		background-position: 0 -88px;
+	}
+	.xx15{
+		background-position: 0 -77px;
+	}
+	.xx20{
+		background-position: 0 -66px;
+	}
+	.xx25{
+		background-position: 0 -55px;
+	}
+	.xx30{
+		background-position: 0 -44px;
+	}
+	.xx35{
+		background-position: 0 -33px;
+	}
+	.xx40{
+		background-position: 0 -22px;
+	}
+	.xx45{
+		background-position: 0 -11px;
+	}
+	.xx50{
+		background-position: 0 0px;
+	}

@@ -1,0 +1,45 @@
+.zheng{
+    margin-top:20px;
+}
+    .fl{
+    margin-bottom: 15px;
+}
+.fl li{
+    display: inline-block;
+    margin: 5px 10px;
+    color: #999;
+    cursor: pointer;
+}
+.fl span:hover{
+    color: #614E3C;
+}
+.hou{
+    padding: 2px 10px;
+    color: white;
+    background-color: #614E3C;
+    border-radius: 2px;
+}
+.hou{
+    margin: 5px 0;
+}
+.hh span:hover{
+    color:white;
+}
+.jzgd a:hover{
+    background-color:#eee;
+}
+.gd{
+    margin: 30px 30px 10px 0;
+    border-radius: 2px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    background: #f7f7f7;
+    text-decoration: none;
+    color: #258dcd;
+}
+.hou1{
+    background: #f2fbf2;
+}

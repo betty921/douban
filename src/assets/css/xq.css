@@ -1,0 +1,43 @@
+.dybt{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.dybt h1{
+  display: inline;
+  color: #494949;
+}
+.dybt span{
+  font-size: 26px;
+}
+.gydy{
+  margin-bottom: 15px;
+}
+.tp{
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+}
+.tp span{
+  display: block;
+  text-align: center;
+}
+.tp a{
+  font-size: 0;
+}
+.dybj{
+  overflow: hidden;
+    padding-right: 15px;
+}
+.dbpf{
+  width: 170px;
+  float: right;
+  border-left:1px solid #eaeaea;
+}
+.jqjj{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.jqjj p{
+  text-indent: 25px;
+}
+

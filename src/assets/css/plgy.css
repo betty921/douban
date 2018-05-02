@@ -1,0 +1,31 @@
+.lbul{
+    margin:15px 0;
+    margin-bottom: 5px;
+}
+.lbul li{
+    padding:10px 0;
+    border-top:1px solid #eee;
+    margin:0;
+}
+.lbul a{
+    margin-right:5px;
+    vertical-align:2px;
+}
+.lbul p{
+    line-height:1.8;
+    color:#494949;
+}
+.sj{
+    margin-left:8px;
+}
+
+.h2{
+    word-wrap: break-word;
+display: block;
+font-size: 25px;
+font-weight: bold;
+color: #494949;
+margin: 0;
+padding: 0 0 15px 0;
+line-height: 1.1;
+}

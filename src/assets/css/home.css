@@ -1,0 +1,59 @@
+.contanier{  
+        font-size: 12px; 
+    }
+    .slide{
+        position: relative;
+        width: 675px;
+        height:430px;
+        overflow: hidden;
+        padding-top: 15px;
+    }
+    .slideshow{
+        position: absolute;
+    display: flex;
+    flex-direction: row;
+    }
+    .lv{
+        width: 655px;
+        font: 15px Arial, Helvetica, sans-serif;
+        color: #072;
+        margin: 0 0 12px 0;
+    }
+    .lvnei{
+        font: 12px Arial, Helvetica, sans-serif;
+    }
+    .side-control{
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.side-dots{
+    display: inline-block;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.active{
+    background-color: black;
+}
+.side-btn div{
+    color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: gray;
+    margin-left: 5px; 
+    display: inline-block;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.side-btn div:hover{
+    background-color: #dfdfdf;
+}

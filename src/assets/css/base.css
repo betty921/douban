@@ -1,0 +1,44 @@
+html{
+	background-color: white;
+	color: black;
+}
+body{
+	font-size: 12px;
+	font-style: Helvetica,Arial,sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #37a;
+}
+a:hover{
+	text-decoration: none;
+	background-color: #37a;
+	color: white;
+}
+img{
+	border: none;
+}
+li{
+	list-style: none;
+}
+span{
+	color: #999;
+}
+.wrapper{
+	width: 1040px;
+	margin: 0 auto;
+}
+.side{
+	width: 300px;
+	float: right;
+	margin-left: 30px;
+}
+.main{
+	margin-top: 20px;
+	width: 675px;
+	padding-right: 40px;
+}

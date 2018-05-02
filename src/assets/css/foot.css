@@ -1,0 +1,14 @@
+footer{
+	background-color: white;
+}
+footer .wrapper{
+	border-top: 1px dashed #dcdcdc;
+	padding-top: 15px;
+}
+.dao{
+	float: right;
+}
+.dao li{
+	display: inline-block;
+	margin-right: 5px;
+}

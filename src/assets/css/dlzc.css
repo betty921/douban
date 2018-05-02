@@ -1,0 +1,42 @@
+    label{
+        width: 60px;
+        text-align: right;
+        display: inline-block;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .main{
+        margin-top: 150px;
+    }
+    .side{
+        margin-top: 50px;
+        margin-right:150px;
+    }
+    .main h1{
+        margin-bottom: 25px;
+    }
+    .biaodan div{
+        margin: 15px;
+    }
+    .biaodan input{
+        width: 200px;
+        height: 18px;
+        padding: 5px;
+        margin-left: 5px;
+        border: 1px solid #c9c9c9;
+        margin-right: 15px;
+    }
+    .btn{
+        padding: 6px 26px;
+        background-color: #3fa156;
+        font-size: 14px;
+        color: white;
+        display: inline-block;
+        width: 85px;
+        height: 35px;
+        border:1px solid #3fa156;
+        margin-left: 5px;
+        margin-right: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }

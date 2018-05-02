@@ -1,0 +1,26 @@
+	.sec_li{
+		width: 115px;
+	position: relative;
+	margin: 0 25px 15px 0;
+	padding: 0;
+	display: inline-block;
+	}
+	.link1{
+		font-size: 0;
+	}
+	.tu{
+		width: 100px;
+        height: 145px;
+	}
+	.miaoshu{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+	}	
+	.rating{
+		text-align: center;
+	}
+	.rating i{
+    	margin-left: 4px;
+    	color: #e09015;
+	}
